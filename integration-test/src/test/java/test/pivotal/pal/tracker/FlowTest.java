@@ -18,7 +18,6 @@ public class FlowTest {
 
     private final HttpClient httpClient = new HttpClient();
     private final String workingDir = System.getProperty("user.dir");
-
     private ApplicationServer registrationServer = new ApplicationServer(workingDir + "/../applications/registration-server/build/libs/registration-server.jar", "8883");
     private ApplicationServer allocationsServer = new ApplicationServer(workingDir + "/../applications/allocations-server/build/libs/allocations-server.jar", "8881");
     private ApplicationServer backlogServer = new ApplicationServer(workingDir + "/../applications/backlog-server/build/libs/backlog-server.jar", "8882");
