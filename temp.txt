@@ -1,5 +1,7 @@
-./gradlew cloudNativeDeveloperDistributedSystemWithCircuitBreaker \
+./gradlew cloudNativeDeveloperDistributedSystemWithSecurity \
     -PregistrationServerUrl=https://registration-pal-shailesh.apps.evans.pal.pivotal.io \
     -PbacklogServerUrl=https://backlog-pal-shailesh.apps.evans.pal.pivotal.io \
     -PallocationsServerUrl=https://allocations-pal-shailesh.apps.evans.pal.pivotal.io \
-    -PtimesheetsServerUrl=https://timesheets-pal-shailesh.apps.evans.pal.pivotal.io
+    -PtimesheetsServerUrl=https://timesheets-pal-shailesh.apps.evans.pal.pivotal.io \
+    -PactuatorUsername=actuator \
+    -PactuatorPassword=operations4red
